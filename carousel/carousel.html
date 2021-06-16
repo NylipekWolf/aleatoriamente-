@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="carousel.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>O MEU Carousel</h1>
+    <section class="carousel">
+        <ol>
+            <li tabindex="0" id="slide1" class="slid">
+                <div>
+                    <a href="#slide4" class="volta">volta</a>
+                    <a href="#slide2" class="proximo">proximo</a>
+                </div>
+            </li>
+            <li tabindex="0" id="slide2" class="slid">
+                <div>
+                    <a href="#slide1" class="volta">volta</a>
+                    <a href="#slide3" class="proximo">proximo</a>
+                </div>
+            </li>
+            <li tabindex="0" id="slide3" class="slid">
+                <div>
+                    <a href="#slide2" class="volta">volta</a>
+                    <a href="#slide4" class="proximo">proximo</a>
+                </div>
+            </li>
+            <li tabindex="0" id="slide4" class="slid">
+                <div>
+                    <a href="#slide3" class="volta">volta</a>
+                    <a href="#slide1" class="proximo">proximo</a>
+                </div>
+            </li>
+        </ol>
+        <aside class="navegação">
+            <ol class="list">
+                <li class="nav-item">
+                    <a href="#slide1" class="btn">proximo slide</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#slide2" class="btn">proximo slide</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#slide3" class="btn">proximo slide</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#slide4" class="btn">proximo slide</a>
+                </li>
+            </ol>
+        </aside>
+    </section>
+</body>
+</html>
