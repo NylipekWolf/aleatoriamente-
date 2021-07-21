@@ -1,0 +1,35 @@
+body{
+    padding: 100px;
+}
+
+.cicle{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: auto;
+    border: 10px solid blue;
+    animation: cicle 3.5s infinite;
+}
+
+@keyframes cicle{
+    0%{
+        border-color: blue;
+        transform: scale(1);
+    }
+    25%{
+        border-color: red;
+        transform: scale(0.8);
+    }
+    50%{
+        border-color: yellow;
+        transform: scale(1.25);
+    }
+    75%{
+        border-color: green;
+        transform: scale(0.7);
+    }
+    100%{
+        border-color: purple;
+        transform: scale(1);
+    }
+}
