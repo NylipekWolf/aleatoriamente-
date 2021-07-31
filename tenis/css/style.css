@@ -12,12 +12,14 @@ a{
 }
 
 body{
-    background: linear-gradient(279deg, rgb(56 100 141), rgb(210 24 24));
+    background: linear-gradient(279deg, #38648d, #1155a8, #ab320e, #d21818);
+    background-size: 200%, 200%;
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100vh;
     text-transform: uppercase;
+    animation: backgroud 12s ease infinite;
 }
 
 section{
@@ -149,6 +151,25 @@ span{
     100%{
         bottom: 5px;
         transform: rotate(336deg);
+    }
+}
+
+@keyframes backgroud {
+    0%{
+        background-position: 30% 70%;
+    }
+    25%{
+        background-position: 30% 70%;
+    }
+    50%{
+        background-position: 70% 30%;
+    }
+    75%{
+        background-position: 30% 70%;
+    }
+
+    100%{
+        background-position: 70% 30%;
     }
 }
 
