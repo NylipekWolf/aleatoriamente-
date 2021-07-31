@@ -19,7 +19,7 @@ body{
     justify-content: center;
     height: 100vh;
     text-transform: uppercase;
-    animation: backgroud 12s ease infinite;
+    animation: backgroud 15s ease infinite;
 }
 
 section{
@@ -156,7 +156,7 @@ span{
 
 @keyframes backgroud {
     0%{
-        background-position: 30% 70%;
+        background-position: 70% 30%;
     }
     25%{
         background-position: 30% 70%;
@@ -167,7 +167,6 @@ span{
     75%{
         background-position: 30% 70%;
     }
-
     100%{
         background-position: 70% 30%;
     }
